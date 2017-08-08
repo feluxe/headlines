@@ -1,6 +1,6 @@
-buildlib==0.0.0a0
-cmdinter==0.0.0a0
-headlines==0.0.0a2
+buildlib==0.0.0a5
+cmdinter==0.0.0a1
+headlines==0.0.0a3
 prmt==0.0.0a0
 processy==0.0.0a1
 ruamel.yaml==0.15.23
