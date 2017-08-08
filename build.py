@@ -1,7 +1,7 @@
 import sys
 import os
 from headlines import h2, h3
-from buildlib.yaml import load_yaml
+from buildlib.utils.yaml import load_yaml
 from buildlib.cmds.build import build_python_wheel
 
 CWD = os.getcwd()

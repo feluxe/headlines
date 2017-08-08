@@ -1,24 +1,9 @@
 from setuptools import setup, find_packages
 from codecs import open
+from buildlib.utils.yaml import load_yaml
 
 with open('README.md') as f:
     long_description = f.read()
-import ruamel.yaml as yaml
-
-
-def load_yaml(
-    file: str,
-    keep_order: bool = False
-    ) -> dict:
-    """
-    Load yaml file.
-    """
-    with open(file, 'r') as stream:
-        if keep_order:
-            return yaml.load(stream.read(), Loader=yaml.RoundTripLoader)
-        else:
-            return yaml.safe_load(stream.read())
-
 
 config = load_yaml('CONFIG.yaml')
 
