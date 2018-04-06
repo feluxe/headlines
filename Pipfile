@@ -8,7 +8,7 @@ name = "pypi"
 [dev-packages]
 yapf = "*"
 pylint = "*"
-buildlib = "*"
+buildlib = "==0.2.18"
 docopt = "*"
 
 [requires]
