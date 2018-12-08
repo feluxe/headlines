@@ -107,7 +107,10 @@ def h3(
     return msg
 
 
-def h4(txt: str, width: int = 80) -> str:
+def h4(
+    txt: str,
+    width: int = 80,
+) -> str:
     """
      # Lorem ipsum dolor sit amet
 
